@@ -1,0 +1,32 @@
+To check the version: 
+here rpm : redhat package management 
+-qa : query/verify all packages
+To Initialise a git : git init . 
+Here init means initialise 
+. represents present working directory 
+when we initialise the git, .git folder will gets created which contains some files which relates
+to git.
+TRACK & COMMIT A FILE:
+TRACK & COMMIT MULTIPLE FILES 
+1.  git --version
+2.  git -v
+3.  rpm -qa git
+Create a file : touch aws
+Track a file : git add aws
+To check the status : git status 
+To commit the file : git commit -m “commit message” filename 
+To track multiple files : git add file1 file2 file3
+To commit multiple files : git commit -m “commit message” file1 file2 file3
+TRACK & COMMIT ALL FILES 
+GIT LOG COMMANDS:
+GIT SHOW COMMAND: 
+To track all files : git add * 
+To track all files including hidden files: git add .
+To commit all files : git commit -m “commit message” .
+Here dot (.) represents all the files which are present in staging area
+To see the history of files : git log
+To see latest 2 commits : git log -2
+To see all commits-ids and messages : git log --oneline
+To see all full commits-ids and messages : git log --pretty=oneline
+To get the commit details along with filenames : git show commit-id --name-only
+To get the commit details along with the changes in filenames : git show c
